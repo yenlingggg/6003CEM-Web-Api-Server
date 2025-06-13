@@ -19,7 +19,7 @@ const app = express();
 app.use(express.json());
 app.use(cors({
   origin: 'https://6003-cem-web-api-client.vercel.app/',
-  methods: ['GET', 'POST'],
+  methods: ['GET','POST','PUT','DELETE','OPTIONS'],
   credentials: true,
 }));
 
