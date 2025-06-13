@@ -18,7 +18,7 @@ const PORT = process.env.PORT || 5000;
 const app = express();
 app.use(express.json());
 app.use(cors({
-  origin: 'https://6003cem-web-api-client.vercel.app',
+  origin: 'https://6003-cem-web-api-client.vercel.app/',
   methods: ['GET', 'POST'],
   credentials: true,
 }));
